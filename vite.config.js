@@ -42,7 +42,7 @@ export default defineConfig({
   plugins,
   base: '/Xinjiang-Cultural-Messenger/', // 仓库名，注意前后斜杠
   build: {
-    outDir,
+    outDir: 'dist'
   },
   resolve: {
     alias: [
